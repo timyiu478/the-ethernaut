@@ -1,6 +1,6 @@
 ---
 title: "Coin Flip"
-tags: [""]
+tags: ["Foundry"]
 reference: 
 ---
 
@@ -49,4 +49,26 @@ contract CoinFlip {
 
 # Solution
 
-todo
+1. anyone can get the block number so that anyone can compute `coinFlip`
+
+```
+await getBlockNumber()
+8903669
+```
+
+2. deploy `CoinFlipAttack.sol` on the same testnet using foundry
+
+Code: [CoinFlipAttack.sol](lv_3/src/CoinFlipAttack.sol)
+
+Find RPC from: https://chainlist.org/chain/11155111?
+
+```
+forge create src/CoinFlipAttack.sol:CoinFlipAttack --rpc-url=$BASE_SEPOLIA_RPC --account deployer --broadcast
+[⠊] Compiling...
+No files changed, compilation skipped
+Enter keystore password:
+Deployer: 0xB1473Ba227C4645501E0e05f4839b00ED8320d33
+Deployed to: 0x0Af3E0998033AA5d8B2aE22325251cDAC0ac0763
+Transaction hash: 0x636815427d2bb4193b9c0b69fe981c590a5a330f9b3d2abe491bc1ec5168c59c
+```
+
