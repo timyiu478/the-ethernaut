@@ -7,4 +7,4 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | Level  | Name                   | Description | Link              | Tags     |
 |----|--------------------------------|------------------|---------| ------ |
 | 0 | Hello Ethernaut | Learn how to play this game | [View](levels/lv_0.md) | `Tutorials` |
-| 1 | Fallback | [View](levels/lv_1.md) | Bypass contribution check by becoming owner | `Fallback` |
+| 1 | Fallback | Bypass contribution check by becoming owner | [View](levels/lv_1.md) | `Fallback` |
