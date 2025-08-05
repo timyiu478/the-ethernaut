@@ -73,7 +73,7 @@ Transaction hash: 0x636815427d2bb4193b9c0b69fe981c590a5a330f9b3d2abe491bc1ec5168
 ```
 
 
-3. call the `guess` function 10 times
+3. Call the `guess` function 10 times
 
 > Don't use `cast call`, `cast call` performs a static call, which means it simulates the function without changing state. So consecutiveWins++ will not persist.
 
@@ -81,7 +81,7 @@ Transaction hash: 0x636815427d2bb4193b9c0b69fe981c590a5a330f9b3d2abe491bc1ec5168
 cast send 0xd89C1a850e9cd663b550105799267BA17F3F1E2F "guess(address)" 0xcE8A02314E34Dd10a69eB2F0966497B1f917e7d9 --rpc-url $BASE_SEPOLIA_RPC --private-key
 ```
 
-4. check the `consecutiveWins` variable
+4. Check the `consecutiveWins` variable
 
 ```
 cast call 0xcE8A02314E34Dd10a69eB2F0966497B1f917e7d9 "consecutiveWins()(uint256)" --rpc-url $BASE_SEPOLIA_RPC
