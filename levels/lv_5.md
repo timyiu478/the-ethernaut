@@ -1,6 +1,6 @@
 ---
 title: "Token"
-tags: ["Overflow"]
+tags: ["Underflow"]
 reference: https://ethernaut.openzeppelin.com/level/0x478f3476358Eb166Cb7adE4666d04fbdDB56C407
 ---
 
@@ -41,7 +41,7 @@ contract Token {
 
 # Solution
 
-1. unsigned integer overflow attack
+1. unsigned integer underflow attack
 
 ```
 contract.transfer(instance, 30)
