@@ -1,7 +1,7 @@
 ---
 title: "Vault"
 rags: ["Variables", "Storage"]
-reference: https://ethernaut.openzeppelin.com/level/0xB7257D8Ba61BD1b3Fb7249DCd9330a023a5F3670
+reference: https://ethernaut.openzeppelin.com/level/8
 ---
 
 # Description

@@ -1,7 +1,7 @@
 ---
 title: "Fallback"
 tags: ["Fallback Methods"]
-reference: https://ethernaut.openzeppelin.com/level/0x3c34A342b2aF5e885FcaA3800dB5B205fEfa3ffB
+reference: https://ethernaut.openzeppelin.com/level/1
 ---
 
 # Description

@@ -1,7 +1,7 @@
 ---
 title: "Delegation"
 tags: ["delegatecall"]
-reference: https://ethernaut.openzeppelin.com/level/0x73379d8B82Fda494ee59555f333DF7D44483fD58
+reference: https://ethernaut.openzeppelin.com/level/6
 ---
 
 # Description

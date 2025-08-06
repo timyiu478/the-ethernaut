@@ -1,7 +1,7 @@
 ---
 title: "Force"
 tags: ["selfdestruct"]
-reference: https://ethernaut.openzeppelin.com/level/0xb6c2Ec883DaAac76D8922519E63f875c2ec65575
+reference: https://ethernaut.openzeppelin.com/level/7
 ---
 
 # Description

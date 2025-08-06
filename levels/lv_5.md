@@ -1,7 +1,7 @@
 ---
 title: "Token"
 tags: ["Underflow"]
-reference: https://ethernaut.openzeppelin.com/level/0x478f3476358Eb166Cb7adE4666d04fbdDB56C407
+reference: https://ethernaut.openzeppelin.com/level/5
 ---
 
 # Description

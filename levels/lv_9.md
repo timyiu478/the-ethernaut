@@ -1,7 +1,7 @@
 ---
 title: "King"
 tags: []
-reference: https://ethernaut.openzeppelin.com/level/0x3049C00639E6dfC269ED1451764a046f7aE500c6
+reference: https://ethernaut.openzeppelin.com/level/9
 ---
 
 # Description
@@ -13,7 +13,7 @@ Such a fun game. Your goal is to break it.
 When you submit the instance back to the level, the level is going to reclaim kingship. You will beat the level if you can avoid such a self proclamation.
 
 ```sol
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MI
 pragma solidity ^0.8.0;
 
 contract King {
@@ -41,3 +41,12 @@ contract King {
 ```
 
 # Solution
+
+1. Attack Idea
+
+To become king, we have to execute `payable(king).transfer(msg.value)` first. So we may 
+
+(1) let our controlled smart contract become king.
+(2) destory the smart contract so that the `King` contract cannot transfer ether to it.
+
+2. todo

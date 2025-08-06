@@ -1,7 +1,7 @@
 ---
 title: "Hello Ethernaut"
 tags: ["Warm up"]
-reference: https://ethernaut.openzeppelin.com/level/0x7E0f53981657345B31C59aC44e9c21631Ce710c7
+reference: https://ethernaut.openzeppelin.com/level/0
 ---
 
 # Description
