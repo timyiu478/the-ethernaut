@@ -12,4 +12,7 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 3 | CoinFlip | Deterministic and replicatable algorithm | [View](levels/lv_3.md) | `Foundry` |
 | 4 | Telephone | Use Proxy to change msg.sender | [View](levels/lv_4.md) | `Proxy` |
 | 5 | Token | Unsigned integer overflow attack | [View](levels/lv_5.md) | `Overflow` |
+| 6 | Delegation | Beaware the execution context | [View](levels/lv_6.md) | `delegatecall` |
+| 7 | Force | Force send eth by self destroy | [View](levels/lv_7.md) | `selfdestruct` |
+| 8 | Vault | All variables are public | [View](levels/lv_8.md) | `Variables`, `Storage` |
 
