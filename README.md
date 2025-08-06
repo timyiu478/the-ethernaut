@@ -17,4 +17,5 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 8 | Vault | All variables are public | [View](levels/lv_8.md) | `Variables`, `Storage` |
 | 9 | King |  Deny to receive ether | [View](levels/lv_9.md) | `Receive` |
 | 11 | Elevator | Use the view function modifier on an interface for preventing state modifications | [View](levels/lv_11.md) | `Stateful function` |
+| 12 | Privacy | Type Casting can't provide privacy | [View](levels/lv_12.md) | `Storage`, `Type Casting` |
 
