@@ -15,4 +15,5 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 6 | Delegation | Beaware the execution context | [View](levels/lv_6.md) | `delegatecall` |
 | 7 | Force | Force send eth by self destroy | [View](levels/lv_7.md) | `selfdestruct` |
 | 8 | Vault | All variables are public | [View](levels/lv_8.md) | `Variables`, `Storage` |
+| 11 | Elevator | Use the view function modifier on an interface for preventing state modifications | [View](levels/lv_11.md) | `Stateful function` |
 
