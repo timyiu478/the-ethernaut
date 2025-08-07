@@ -16,6 +16,8 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 7 | Force | Force send eth by self destroy | [View](levels/lv_7.md) | `selfdestruct` |
 | 8 | Vault | All variables are public | [View](levels/lv_8.md) | `Variables`, `Storage` |
 | 9 | King |  Deny to receive ether | [View](levels/lv_9.md) | `Receive` |
+| 10 | Re-entrancy | Use Check-Effect-Interactions Pattern to prevent external call interrupting the execution flow | [View](levels/lv_10.md) | `Receive`, `Check-Effect-Interactions` |
 | 11 | Elevator | Use the view function modifier on an interface for preventing state modifications | [View](levels/lv_11.md) | `Stateful function` |
 | 12 | Privacy | Type Casting can't provide privacy | [View](levels/lv_12.md) | `Storage`, `Type Casting` |
 | 21 | Shop | State modification can happen outside from the view function call chain  | [View](levels/lv_21.md) | `View Function` |
+
