@@ -21,5 +21,6 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 12 | Privacy | Type Casting can't provide privacy | [View](levels/lv_12.md) | `Storage`, `Type Casting` |
 | 15 | NaughtCoin | Incompleted Authorization Controls | [View](levels/lv_15.md) | `ERC20`, `Inheritance` |
 | 17 | Recovery | Recover missing contract address | [View](levels/lv_17.md) | `Contract Creation`, `Etherscan` |
+| 20 | Deny | DoS by Gas Limit Exhaustion   | [View](levels/lv_20.md) | `Gas Limit Exhaustion` |
 | 21 | Shop | State modification can happen outside from the view function call chain  | [View](levels/lv_21.md) | `View Function` |
 
