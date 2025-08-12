@@ -26,5 +26,6 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 17 | Recovery | Recover missing contract address | [View](levels/lv_17.md) | `Contract Creation`, `Etherscan` |
 | 20 | Deny | DoS by Gas Limit Exhaustion   | [View](levels/lv_20.md) | `Gas Limit Exhaustion` |
 | 21 | Shop | State modification can happen outside from the view function call chain  | [View](levels/lv_21.md) | `View Function` |
+| 26 | Double Entry Point | First on-chain forta detection bot for education purpose | [View](levels/lv_26.md) | `Forta` |
 | 27 | Good Samaritan | Custom error throwed by attacker contract | [View](levels/lv_27.md) | `Custom Error` |
 
