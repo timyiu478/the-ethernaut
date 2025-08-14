@@ -30,4 +30,4 @@ The Ethernaut is a Web3/Solidity-based wargame offered by OpenZeppelin, inspired
 | 26 | Double Entry Point | First on-chain forta detection bot for education purpose | [View](levels/lv_26.md) | `Forta` |
 | 27 | Good Samaritan | Custom error throwed by attacker contract | [View](levels/lv_27.md) | `Custom Error` |
 | 29 | Switch | Learn how to hard code calldata and bypass function modifier | [View](levels/lv_29.md) | `calldata` |
-
+| 30 | HigherOrder | Dirty Higher Order Bits exploit | [View](levels/lv_30.md) | `calldata` |
