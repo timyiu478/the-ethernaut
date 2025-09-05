@@ -13,3 +13,8 @@ states/
 # Optional
 .env
 .env.local
+
+contracts/out/
+contracts/out/**
+contracts/cache/
+contracts/cache/**
